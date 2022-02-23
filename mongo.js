@@ -14,7 +14,7 @@ const human = db.collection('human')
      email:'machadofelipe2016@outlook.com',
      gender:'Male'
  } , (err, res) => {
-     console.log(err)
+     console.log(err, res)
  })
 
 })
